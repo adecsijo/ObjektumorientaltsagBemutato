@@ -52,7 +52,7 @@ public class Cat extends Animal {
                 "name='" + super.getName() + '\'' +
                 "color='" + super.getColor() + '\'' +
                 "age='" + super.getAge() + '\'' +
-                "tomeg='" + super.getTomeg() + '\'' +
+                "mass='" + super.getMass() + '\'' +
                 "male='" + super.isMale() + '\'' +
                 "breed='" + this.breed + '\'' +
                 '}';

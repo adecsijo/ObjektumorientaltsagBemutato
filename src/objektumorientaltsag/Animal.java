@@ -11,7 +11,7 @@ public class Animal {
     private String name;
     private String color;
     private int age;
-    private double tomeg;
+    private double mass;
     private boolean male;
 
     public String getName() {
@@ -38,12 +38,12 @@ public class Animal {
         this.age = age;
     }
 
-    public double getTomeg() {
-        return tomeg;
+    public double getMass() {
+        return mass;
     }
 
-    public void setTomeg(double tomeg) {
-        this.tomeg = tomeg;
+    public void setMass(double mass) {
+        this.mass = mass;
     }
 
     public boolean isMale() {
@@ -56,11 +56,11 @@ public class Animal {
 
     public Animal() {}
 
-    public Animal(String name, String color, int age, double tomeg, boolean male) {
+    public Animal(String name, String color, int age, double mass, boolean male) {
         this.name = name;
         this.color = color;
         this.age = age;
-        this.tomeg = tomeg;
+        this.mass = mass;
         this.male = male;
     }
 
